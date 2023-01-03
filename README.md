@@ -1,6 +1,6 @@
-# Laravel 8 透過 YouTube 資料應用程式介面新增 YouTube 功能
+# Laravel 9 透過 YouTube 資料應用程式介面新增 YouTube 功能
 
-引入 laravolt 的 avatar 套件來擴增與 YouTube 整合來取得 YouTube 影片的影片封面、標題、說明、評分等統計資料，進而提供搜尋、觀看影片的服務。
+引入 alaouy 的 youtube 套件來擴增與 YouTube 整合來取得 YouTube 影片的影片封面、標題、說明、評分等統計資料，進而提供搜尋、觀看影片的服務。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -21,5 +21,5 @@ $ php artisan key:generate
 
 ----
 ## 畫面截圖
-![](https://i.imgur.com/pgQDx7K.png)
+![](https://i.imgur.com/9KDvDs1.png)
 > YouTube 影片觀看次數代表觀眾觀看某一部影片的次數，可以視為衡量影片整體熱門程度的重要指標

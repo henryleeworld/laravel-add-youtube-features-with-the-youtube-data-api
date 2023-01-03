@@ -8,7 +8,7 @@ class YouTubeController extends Controller
 {
     public function show() 
     {
-        $videoList = Youtube::getVideoInfo(['YrLJ4Loc0uI','5acuKEzvRBI','wOZ-btrOwuM','L4Lbz64U3Lg','GIDx_yj10lU']);
+        $videoList = Youtube::getVideoInfo(['q8Sz3kZor7s','ViJd14910KQ','rPvMe_RSMUo','sycMFOrOYgw','7HUiJiMMLv4']);
         foreach ($videoList as $video) {
             echo '影片編號：' . $video->id . PHP_EOL;
             echo '影片標題：' . $video->snippet->title . PHP_EOL;
