@@ -1,4 +1,4 @@
-# Laravel 10 透過 YouTube 資料應用程式介面新增 YouTube 功能
+# Laravel 11 透過 YouTube 資料應用程式介面新增 YouTube 功能
 
 引入 alaouy 的 youtube 套件來擴增與 YouTube 整合來取得 YouTube 影片的影片封面、標題、說明、評分等統計資料，進而提供搜尋、觀看影片的服務。
 
@@ -21,5 +21,5 @@ $ php artisan key:generate
 
 ----
 ## 畫面截圖
-![](https://i.imgur.com/cYEVGiW.png)
+![](https://i.imgur.com/XsH5jTE.png)
 > YouTube 影片觀看次數代表觀眾觀看某一部影片的次數，可以視為衡量影片整體熱門程度的重要指標
