@@ -1,4 +1,4 @@
-# Laravel 11 透過 YouTube 資料應用程式介面新增 YouTube 功能
+# Laravel 12 透過 YouTube 資料應用程式介面新增 YouTube 功能
 
 引入 alaouy 的 youtube 套件來擴增與 YouTube 整合來取得 YouTube 影片的影片封面、標題、說明、評分等統計資料，進而提供搜尋、觀看影片的服務。
 
@@ -15,6 +15,10 @@ $ composer install
 - 產生 Laravel 要使用的一組 32 字元長度的隨機字串 APP_KEY 並存在 .env 內。
 ```sh
 $ php artisan key:generate
+```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/youtube/show/` 來進行取得 YouTube 影片的資料。

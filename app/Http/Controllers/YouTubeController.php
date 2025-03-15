@@ -6,9 +6,12 @@ use Alaouy\Youtube\Facades\Youtube;
 
 class YouTubeController extends Controller
 {
+    /**
+     * Display the specified resource.
+     */
     public function show() 
     {
-        $videoList = Youtube::getVideoInfo(['ygFjpwCTuEU','PePiBanDerA','qnsnqipu1S8','sKg96yEvZ_4','yxUs8xtpWYI']);
+        $videoList = Youtube::getVideoInfo(['hX0UvhKsxKU','13HHSrHMPAw','1WUEi2h-cvM','iQgAQN-NZMg','LxcNboI9ft8']);
         foreach ($videoList as $video) {
             echo __('Video ID:') . $video->id . PHP_EOL;
             echo __('Video title:') . $video->snippet->title . PHP_EOL;
